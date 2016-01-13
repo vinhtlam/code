@@ -1,0 +1,27 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #f84;
+  background-color: #e7e7e7;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color*/
+ }
+
+.navbar {
+
+	font-weight: bold;
+	color: #ffeeaa;
+	background-color: #1177ff; 
+	/*blue*/
+}
+
+
+	
+

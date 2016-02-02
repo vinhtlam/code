@@ -4,15 +4,22 @@ body {
 
 }
 
-.navbar-default .navbar-nav li a {
+#navbar-collapse li a {
 	color: #fff;
 }
 
-.navbar-default .navbar-nav .active a {
-	color: #f61;
-}
 
-.navbar-default .navbar-,.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-fixed-top {
+#navbar-collapse .active a {
+	color:#f61;
+}
+ .my-img-responsive{
+ 	display: block;
+    width: 100%;
+    height: auto;
+ }
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-fixed-top, .navbar-fixed-bottom {
 
 	font-weight: bold;
 	/*font mau trang*/
@@ -22,5 +29,13 @@ body {
 }
 
 
+#nav2 li>a {
+	color: black;
+}
+
+#nav2 li>a:hover {
+	font-weight: bold;
+	color: gray;
+}
 	
 
